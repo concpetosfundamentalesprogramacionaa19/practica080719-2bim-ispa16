@@ -19,12 +19,13 @@ public class SumaNumeros {
     }
     public static int obtenerSumaDos(int valor){
         if (valor <= 0){
-       }else{
+            return 0;
+        }else{
             return valor + obtenerSumaDos(valor -1);
         }
         
     }
-    
+   
 
 
 }
