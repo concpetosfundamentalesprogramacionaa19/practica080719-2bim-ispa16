@@ -18,11 +18,12 @@ public class Metodos {
         }
          
     }
-    public static int obtenerSumaArreglo(int arreglo2[], int tamanio) {
-        int resultado = 0;
-        for (int i = 0;i < tamanio;i++){
-            resultado = arreglo2[i] + resultado;
+    //demostracion arreglo
+    public static int obtenerSumaArreglo(int arreglo2[], int tamanio) { 
+        int resultado = 0;//inicializacion de variables
+        for (int i = 0;i < tamanio;i++){//inicio del ciclo for 
+            resultado = arreglo2[i] + resultado;//suma del arreglo
         }
-        return resultado; 
+        return resultado; //devolucion del resultado
     }
 }

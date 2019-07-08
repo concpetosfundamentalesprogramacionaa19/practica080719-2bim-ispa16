@@ -11,10 +11,11 @@ package ejercicio2;
  */
 public class Principal {
     public static void main (String[]args){
-        int numeros[]= {10, 20, 30, 1, 2, 3, 40, 4};
-        int tamano = numeros.length;
-        int resultado = Metodos.obtenerTamanioArreglo(numeros,tamano);
-        int resultado2 = Metodos.obtenerSumaArreglo(numeros,tamano);
+        int numeros[]= {10, 20, 30, 1, 2, 3, 40, 4};//declarar arreglo 
+        int tamano = numeros.length;//obtener tamano del arreglo
+        int resultado = Metodos.obtenerTamanioArreglo(numeros,tamano);//lamar al metodo uno
+        int resultado2 = Metodos.obtenerSumaArreglo(numeros,tamano);//lamar al metodo dos
+        //imprimir resulrados de los dos metodos
         System.out.printf("el resultado del m1etodo1 es: %s\n"
                 + "el resultado del metodo 2 es: %s",resultado,resultado2); 
          
